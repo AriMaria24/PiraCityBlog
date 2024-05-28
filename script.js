@@ -1,5 +1,5 @@
 let planoDeFundo = document.querySelector(".cabecalho");
-let listaImagens = ["1.jpg","2.jpeg","3.jpeg","4.jpeg","5.jpeg"];
+let listaImagens = ["9.jpeg","2.jpeg","3.jpeg","4.jpeg","5.jpeg"];
 let linkMenuHamburguer = document.querySelectorAll(".lista__hamburguer__link");
 let caixaCheckBox = document.querySelector("#caixa__checkbox");
 
