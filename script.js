@@ -1,5 +1,5 @@
 let planoDeFundo = document.querySelector(".cabecalho");
-let listaImagens = ["9.jpeg","2.jpeg","3.jpeg","4.jpeg","5.jpeg"];
+let listaImagens = ["9.jpg","2.jpeg","3.jpeg","4.jpeg","5.jpeg"];
 let linkMenuHamburguer = document.querySelectorAll(".lista__hamburguer__link");
 let caixaCheckBox = document.querySelector("#caixa__checkbox");
 
@@ -13,7 +13,7 @@ const timer = setInterval(() => {
         numAleatorio = Math.floor(Math.random() * listaImagens.length);
     }
     numAleatorioAnt = numAleatorio;
-},"7000");
+},"4000");
 
 
 for(var i = 0; i < linkMenuHamburguer.length; i++){
